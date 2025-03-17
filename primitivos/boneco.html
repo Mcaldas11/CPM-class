@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boneco</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+      <a-sphere position="0 0 -3.583" radius="1" color="#c68642"></a-sphere><!-- cabeça -->
+      <a-cone color="#c68642" height="2" radius-bottom="0.5" radius-top="0" position="0 -0.5 -3.583"></a-cone><!-- pescoço -->
+      <a-cylinder color="green" height="3" radius="0.5" open-ended="false" side="double" position="0.008 -3 -3.587"></a-cylinder><!-- tronco tshirt -->
+      <a-cone color="#c68642" height="0.5" radius-bottom="0.1" radius-top="0" position="0 -0.173 -2.712" rotation="90 0 0"></a-cone><!-- nariz -->
+      <!-- braços -->
+      <a-torus color="green" radius="0.5" tube="0.1" arc="180" position="-0.251 -2.206 -3.064" rotation="90 0 90"></a-torus>
+      <a-torus color="green" radius="0.5" tube="0.1" arc="180" position="0.381 -2.630 -3.163" rotation="-45 0 -90"></a-torus>
+      <!-- mãos -->
+      <a-sphere color="#c68642" radius="0.5" position="-0.330 -2.274 -2.540"></a-sphere>
+      <a-sphere color="#c68642" radius="0.5" position="0.252 -3.059 -2.843"></a-sphere>
+      <!-- pernas -->
+      <a-cylinder color="black" height="3" radius="0.5" open-ended="false" side="double" position="-0.247 -5.686 -3.594" scale="0.5 0.8 0.5"></a-cylinder>
+      <a-cylinder color="black" height="3" radius="0.5" open-ended="false" side="double" position="0.242 -5.681 -3.612" scale="0.5 0.8 0.5"></a-cylinder>
+      <a-sphere color="black"> </a-sphere><!-- cintura -->
+    </a-scene>
+
+  </body>
+  </html>
